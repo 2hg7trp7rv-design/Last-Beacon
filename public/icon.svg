@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="LAST BEACON">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="68%">
+      <stop offset="0" stop-color="#263039"/>
+      <stop offset="0.58" stop-color="#0c1115"/>
+      <stop offset="1" stop-color="#030506"/>
+    </radialGradient>
+    <radialGradient id="lamp" cx="50%" cy="44%" r="58%">
+      <stop offset="0" stop-color="#fff4bd"/>
+      <stop offset="0.32" stop-color="#ffc358"/>
+      <stop offset="1" stop-color="#de711c"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="104" fill="url(#bg)"/>
+  <circle cx="256" cy="264" r="177" fill="none" stroke="#f2a33a" stroke-width="10" opacity=".5"/>
+  <circle cx="256" cy="264" r="152" fill="#f2a33a" opacity=".06"/>
+  <path d="M190 388h132l-14-42H204z" fill="#171c1f" stroke="#d88d32" stroke-width="8"/>
+  <rect x="218" y="150" width="76" height="205" rx="28" fill="#171c1f" stroke="#d88d32" stroke-width="9"/>
+  <rect x="232" y="174" width="48" height="151" rx="19" fill="url(#lamp)"/>
+  <path d="M208 168h96M208 221h96M208 274h96M230 137v219M282 137v219" fill="none" stroke="#2d2923" stroke-width="10" stroke-linecap="round"/>
+  <path d="M256 74v54" stroke="#ffc65f" stroke-width="12" stroke-linecap="round" opacity=".8"/>
+</svg>
