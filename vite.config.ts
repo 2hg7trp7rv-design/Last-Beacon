@@ -10,7 +10,7 @@ export default defineConfig({
         lang: "ja",
         name: "LAST BEACON — 最後の灯火",
         short_name: "LAST BEACON",
-        description: "廃材を集め、灯火を強化し、安全圏を広げて生存者を救う短時間サバイバルゲーム。",
+        description: "広い拠点を見回し、住民を配属して資源生産・施設強化・探索を進めるサバイバルゲーム。",
         theme_color: "#070b0d",
         background_color: "#020405",
         display: "standalone",

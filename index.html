@@ -16,22 +16,7 @@
         <div class="world-wrap">
           <div id="game" aria-hidden="true"></div>
           <div class="fog-layer" aria-hidden="true"></div>
-          <div class="world-ui">
-            <button id="scrap-action" class="hotspot hotspot--scrap" type="button" aria-label="廃材を回収する">
-              <span class="hotspot__pulse" aria-hidden="true"></span>
-              <span class="hotspot__arrow" aria-hidden="true">↓</span>
-              <span class="hotspot__label">廃材をタップ</span>
-            </button>
-            <button id="upgrade-action" class="hotspot hotspot--upgrade" type="button" aria-label="灯火を強化する">
-              <span class="upgrade-arrow" aria-hidden="true">↑</span>
-              <span class="upgrade-cost"><span aria-hidden="true">⚙</span> <b id="upgrade-current">12</b>/20</span>
-            </button>
-            <button id="rescue-action" class="hotspot hotspot--rescue" type="button" aria-label="生存者を救助する">
-              <span class="hotspot__pulse" aria-hidden="true"></span>
-              <span class="hotspot__arrow" aria-hidden="true">↓</span>
-              <span class="hotspot__label">救助する</span>
-            </button>
-          </div>
+          <div class="map-corner" aria-hidden="true">SECTOR 01 · BASE</div>
         </div>
 
         <header class="hud" aria-label="所持資源">
@@ -54,9 +39,13 @@
         </header>
 
         <section class="objective" aria-live="polite">
-          <span id="objective-kicker">最初の一手</span>
-          <strong id="objective-title" data-testid="objective">光っている廃材をタップ</strong>
+          <span id="objective-kicker">拠点を見回す</span>
+          <strong id="objective-title" data-testid="objective">画面をドラッグして回収工房を探す</strong>
         </section>
+
+        <div id="world-guide" class="world-guide" role="status" aria-live="polite">
+          ドラッグで拠点を見回す · 2本指で拡大縮小
+        </div>
 
         <button id="sound-toggle" class="sound-toggle" type="button" aria-label="効果音をオフにする" aria-pressed="true">
           <svg class="sound-on" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9zm11.5.2v5.6a4 4 0 0 0 0-5.6m0-4v2.1a7 7 0 0 1 0 9.4v2.1a9 9 0 0 0 0-13.6"/></svg>
